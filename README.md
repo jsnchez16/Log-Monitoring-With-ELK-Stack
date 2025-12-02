@@ -186,6 +186,6 @@ The following are some visualizations for analyzing the collected logs.
 
 2. Why isn't anything showing up in Kibana?
 
-Logstash only processes new lines appended to the end of the file (like a "tail -f" command), unless you force it with `start_position => "beginning"` and `sincedb_path => "/dev/null"` (which you already have, well done).
+Logstash only processes new lines appended to the end of the file (like a "tail -f" command), unless you force it with `start_position => "beginning"` and `sincedb_path => "/dev/null"`.
 
-👉 But this only works if the file is modified after Logstash starts. If the file is unchanged, Logstash won't process it.
+👉 this only works if the file is modified after Logstash starts. If the file is unchanged, Logstash won't process it.
