@@ -20,7 +20,7 @@ This repository aims to demonstrate log monitoring using an ELK stack. This was 
 
 ## ***1. INTRODUCTION***
 
-The following is a brief explanation of the ELK stack technologies, which are those studied in this module.
+The following is a brief explanation of the ELK stack technologies.
 
 - **Logstash**: as a pipeline for processing, transforming, and sending logs.
 
