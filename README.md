@@ -123,7 +123,7 @@ For grok, the **match** block is used to determine that the desired data is in t
 
 This extracts the information from the timestamp, user, file, action, status, and category fields.
 
-For date, which converts date and time strings into digital formats, the **match** and **target** fields are used. The timestamp field is collected in the specified format, and this is then designated as the target in Kibana.
+For date, which converts date and time strings into digital formats, the **match** and **target** fields are used. The timestamp field is collected in the specified format, and it is then designated as the target in Kibana.
 
 Finally, the **Elasticsearch{}** is used as **Output plugin**. The hosts field specifies the localhost address and port where the Elasticsearch instance (cluster) is running, as well as the index, where the indexed information should be stored. **stdout{}** is used for debugging.
 
