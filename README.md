@@ -73,7 +73,7 @@ Once configured and with the Elasticsearch and Kibana instances started, it is p
 
 For this task, a simulated log file was used, following this model line:
 
-´timestamp user=<username> file=<file_path> action=<action> status=<status> category=<category>´
+´timestamp user=[username] file=[file_path] action=[action] status=[status] category=[category]´
 
 Applied to the example, this looks like this:
 
