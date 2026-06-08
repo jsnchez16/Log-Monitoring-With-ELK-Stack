@@ -82,10 +82,15 @@ Applied to the example, this looks like this:
 This provides:
 
 o timestamp
+
 o user: username
+
 o file: path to the accessed file
+
 o action: action performed on the accessed file
+
 o status: result of the action
+
 o category: type of event
 
 <img width="688" height="672" alt="image" src="https://github.com/user-attachments/assets/873da9b8-362a-458f-8769-56175ddd523b" />
