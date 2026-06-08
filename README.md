@@ -59,7 +59,7 @@ Once configured and with the Elasticsearch and Kibana instances started, it is p
 
 <img width="903" height="673" alt="image" src="https://github.com/user-attachments/assets/59e0961e-f349-415b-800f-e4235db31211" />
 
--	**Kibana** : puerto 5610. It was also necessary to add the following line to the Kibana configuration file (kibana.yml): ´xpack.encryptedSavedObjects.encryptionKey: "32characterslongencryptionkey!!!"´. This is to configure the encryption key for encrypted saved objects, which is necessary for alerts, actions, and some plugins to function.
+-	**Kibana** : port 5610. It was also necessary to add the following line to the Kibana configuration file (kibana.yml): ´xpack.encryptedSavedObjects.encryptionKey: "32characterslongencryptionkey!!!"´. This is to configure the encryption key for encrypted saved objects, which is necessary for alerts, actions, and some plugins to function.
 
 <img width="940" height="511" alt="image" src="https://github.com/user-attachments/assets/9b7d2f2d-7148-4902-9ef5-00aa27645970" />
 
