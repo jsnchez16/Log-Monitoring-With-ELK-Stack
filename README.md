@@ -115,7 +115,7 @@ First, **file{}** as **Input Plugin** is used to collect data from the aforement
 
 When the Logstash file plugin is executed, it reads each line of the file and converts each line into an event. The content of each line is saved in the **message** field, which is automatically created by Logstash when the file plugin is executed.
 
-Following the Input plugin, the **grok{}** and **date{}** **Filter plugins** are used to extract the log fields in a structured manner.
+Following the Input plugin, the **grok{}** and **date{}** **Filter plugins** are used to extract the log fields structured.
 
 <img width="940" height="366" alt="image" src="https://github.com/user-attachments/assets/fcaf8aa5-2ef5-4e55-85be-ad7d7ac03847" />
 
