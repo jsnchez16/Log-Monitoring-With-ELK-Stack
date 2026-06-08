@@ -73,7 +73,7 @@ Once configured and with the Elasticsearch and Kibana instances started, it is p
 
 For this task, a simulated log file was used, following this model line:
 
-´<timestamp> user=<username> file=<file_path> action=<action> status=<status> category=<category>´
+´timestamp user=<username> file=<file_path> action=<action> status=<status> category=<category>´
 
 Applied to the example, this looks like this:
 
@@ -81,17 +81,17 @@ Applied to the example, this looks like this:
 
 This provides:
 
-o timestamp
+o **timestamp**
 
-o user: username
+o **user**: username
 
-o file: path to the accessed file
+o **file**: path to the accessed file
 
-o action: action performed on the accessed file
+o **action**: action performed on the accessed file
 
-o status: result of the action
+o **status**: result of the action
 
-o category: type of event
+o **category**: type of event
 
 <img width="688" height="672" alt="image" src="https://github.com/user-attachments/assets/873da9b8-362a-458f-8769-56175ddd523b" />
 
